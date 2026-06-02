@@ -1,6 +1,6 @@
 fn main() {
     let penguin_data = "\
-    common name, length (cm)
+    common name,length (cm)
     Little penguin,33
     Yellow-eyed penguin,65
     Fiordland penguin,60
@@ -14,13 +14,9 @@ fn main() {
             continue;
         }
 
-        let fields: Vec<_> = record
-            .split(',')
-            .map(|field| field.trim())
-            .collect();
+        let fields: Vec<_> = record.split(',').map(|field| field.trim()).collect();
         if cfg!(debug_assertions) {
-            eprintln!("debug: {:?} -> {:?}",
-                record, fields);
+            eprintln!("debug: {:?} -> {:?}", record, fields);
         }
 
         let name = fields[0];
