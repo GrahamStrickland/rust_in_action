@@ -72,6 +72,10 @@ name = "ch2-match-needles"
 version = "0.1.0"
 
 [[package]]
+name = "ch2-needle-in-haystack"
+version = "0.1.0"
+
+[[package]]
 name = "ch2-non-base2"
 version = "0.1.0"
 
