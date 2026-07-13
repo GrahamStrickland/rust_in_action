@@ -64,6 +64,10 @@ name = "ch2-intro-to-numbers"
 version = "0.1.0"
 
 [[package]]
+name = "ch2-is-even"
+version = "0.1.0"
+
+[[package]]
 name = "ch2-non-base2"
 version = "0.1.0"
 
