@@ -45,6 +45,10 @@ name = "ch2-add-floats"
 version = "0.1.0"
 
 [[package]]
+name = "ch2-add-with-lifetime"
+version = "0.1.0"
+
+[[package]]
 name = "ch2-comparing-numbers"
 version = "0.1.0"
 
