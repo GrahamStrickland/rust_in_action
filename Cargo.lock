@@ -95,6 +95,18 @@ name = "ch2-non-base2"
 version = "0.1.0"
 
 [[package]]
+name = "ch2-simple-with-enumerate"
+version = "0.1.0"
+
+[[package]]
+name = "ch2-simple-with-linenums"
+version = "0.1.0"
+
+[[package]]
+name = "ch2-str-simple-pattern"
+version = "0.1.0"
+
+[[package]]
 name = "ch2-while-true-incr-count"
 version = "0.1.0"
 
