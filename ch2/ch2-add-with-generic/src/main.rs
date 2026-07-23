@@ -1,11 +1,19 @@
-fn add<T: std::ops::Add<Output = T>>(i: T, j: T) -> T {
+use std::ops::{Add};
+use std::time::{Duration};
+
+fn add<T: Add<Output = T>>(i: T, j: T) -> T {
     i + j
 }
 
 fn main() {
-    let a = 10;
-    let b = 20;
-    let res = add(a, b);
+    let floats = add(1.2, 3.4);
+    let ints = add(10, 20);
+    let durations = add(
+        Duration::new(5, 0),
+        Duration::new(10, 0)
+    );
 
-    println!("{}", res);
+    println!("{}", floats);
+    println!("{}", ints);
+    println!("{:?}", durations);
 }
